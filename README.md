@@ -38,7 +38,7 @@ Avoid updating any official YouTube apps if possible.
      If you don't see any, watch some YouTube! :)
 
 05 - Perform a name lookup on that hostname you found
-     eg.: "nslookup r6---sn-ni5f-tfbl.googlevideo.com"
+     eg.: "nslookup r2.sn-aigzrn76.googlevideo.com"
 
 06 - Copy the IPv4 IP address it returns. 
 
@@ -52,8 +52,12 @@ Avoid updating any official YouTube apps if possible.
 10 - Restart Pi-hole DNS "pihole restartdns"
 
 11 - Automate it to run every minute for constant updates as new things slip
-     through. I did mine in cron. "man cron" if you don't know how.
+     through.  Add this to crontab using sudo crontab -e
+     # Update youtube every minute
+     * * * * * /usr/local/bin/youtube.update.sh 2>&1
 
+12 - Check progress.  wc -l /etc/hosts.youtube
+   
 
 ### Uninstall
 
