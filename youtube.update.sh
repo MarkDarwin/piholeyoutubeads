@@ -9,14 +9,14 @@
 # geographical region. You can find one in your
 # Pi-hole's query logs.
 # They will look something like this:
-#     r6---sn-ni5f-tfbl.googlevideo.com
+#     r2.sn-aigzrn76.googlevideo.com
 
 # as root: run this once then run "pihole restartdns"
 # You can cron this for auto-updating of the host file.
 # Mine fires every minute:
 # * * * * * /home/grub/bin/youtube.update.sh 2>&1
 
-forceIP="123.456.789.999"
+forceIP="173.194.137.71"
 
 # nothing below here should need changing
 
