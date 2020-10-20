@@ -1,5 +1,5 @@
-# piholeyoutubeads
 # Original content and all credit goes to: https://gitlab.com/grublets/youtube-updater-for-pi-hole/
+
 
 # YouTube updater for Pi-hole
 
