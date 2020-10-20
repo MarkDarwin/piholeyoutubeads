@@ -10,6 +10,7 @@
 # Pi-hole's query logs.
 # They will look something like this:
 #     r2.sn-aigzrn76.googlevideo.com
+# run nslookup r2.sn-aigzrn76.googlevideo.com
 
 # as root: run this once then run "pihole restartdns"
 # You can cron this for auto-updating of the host file.
